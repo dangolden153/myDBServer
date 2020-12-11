@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-router-dom
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\Dangolden\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dangolden\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dangolden\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Dangolden\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.2.1.tgz: ENOENT: no such file or directory, open 'C:\Users\Dangolden\AppData\Local\Yarn\Cache\v6\npm-component-emitter-1.2.1-137918d6d78283f7df7a6b7c5a63e140e69425e6-integrity\node_modules\component-emitter\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "nodemon": "^2.0.5",
+      "socket.io": "^2.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
